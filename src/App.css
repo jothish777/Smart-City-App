@@ -1,0 +1,245 @@
+.main-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-size: 42px;
+  margin: 10px 0;
+  color: #111827;
+}
+
+.header p {
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 420px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.card h2 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.card p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-btn {
+  background: #0f172a;
+  color: white;
+}
+
+.citizen-btn {
+  background: #f3f4f6;
+  border: 1px solid #ddd;
+}
+/* TOP BAR */
+.top-bar {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.login-btn {
+  background: #4f46e5;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* LOGIN PAGE */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef1f8;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.dashboard-container {
+  padding: 40px;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.back-btn {
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.stats-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.manage-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.manage-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.cities-container {
+  min-height: 100vh;
+  background: #f5f6fa;
+  padding: 40px;
+}
+
+.cities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cities-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.city-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.city-page {
+  min-height: 100vh;
+  background: #f5f6fa;
+  padding: 40px 150px;
+}
+
+.city-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.city-header p {
+  color: #555;
+}
+
+.city-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.location-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.status.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+.location-card input,
+.location-card textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.location-card textarea {
+  resize: none;
+  height: 80px;
+}
