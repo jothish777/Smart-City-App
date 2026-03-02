@@ -4,6 +4,9 @@ import { Routes, Route, Link } from "react-router-dom";
 import Login from "./Login";
 import AdminDashboard from "./AdminDashboard";
 import Cities from "./Cities";
+import Services from "./Services";
+import Infrastructure from "./Infrastructure";
+import CitizenPortal from "./CitizenPortal";
 
 function Home() {
   return (
@@ -44,7 +47,9 @@ function Home() {
           <p>
             Access city details, report issues, and provide feedback
           </p>
-          <button className="citizen-btn">Enter Citizen Portal</button>
+          <Link to="/citizen">
+            <button className="citizen-btn">Enter Citizen Portal</button>
+          </Link>
         </div>
 
       </div>
@@ -58,7 +63,10 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/admin" element={<AdminDashboard />} />
+      <Route path="/citizen" element={<CitizenPortal />} />
       <Route path="/cities" element={<Cities />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/infrastructure" element={<Infrastructure />} />
     </Routes>
   );
 }
